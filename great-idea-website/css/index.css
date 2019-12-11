@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	width: 50%;
+	margin: 0 auto;
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +66,131 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/*Styling the nav */
+a {
+	display: inline-block;
+	text-decoration: none;
+	color: gray;
+	width: 9%;
+	margin: 2%;
+}
+
+.logo {
+	display: inline-block;
+	width: 15%;
+}
+
+/*Styling the header*/
+
+h1 {
+	display: inline-block;
+	text-align: center;
+	font-size: 60px;
+	width: 25%;
+	height: 60%;
+	margin: 5%;
+
+}
+
+.header {
+	display: inline-block;
+	width: 40%;
+	margin: 10%;
+}
+
+
+.button{
+	display: inline-block;
+	background-color: white; 
+	border: 2px solid black ;
+	color: black;
+	padding: 15px 32px;
+	text-decoration: none;
+	
+
+}
+
+.features {
+	display: inline-block;
+	border: 2px solid black;
+	width: 20%;
+	margin-right: 230px;
+	
+}
+
+.about {
+	display: inline-block;
+	border: 2px solid black;
+	width: 20%;
+	margin: 2%;
+	
+	
+}
+
+.para1 {
+	display: inline-block;
+	border: 2px solid black;
+	width: 55%;
+	margin: 2%;
+	
+	
+}
+
+.para2 {
+	display: inline-block;
+	border: 2px solid black;
+	width: 55%;
+	margin: 2%;
+}
+
+.img1 {
+	align-content: center;
+}
+
+/* styling 2 section that contains 3 h2 and 3 p */
+
+.services {
+	display: inline-block;
+	width: 20%;
+	margin: 3%;
+}
+
+.product {
+	display: inline-block;
+	width: 20%;
+	margin: 3%;
+}
+
+.vision {
+	display: inline-block;
+	width: 20%;
+	margin: 2%;
+}
+
+.para3 {
+	display: inline-block;
+	font-size: 18px;
+	width: 25%;
+	margin: 2%;
+}
+.para4 {
+	display: inline-block;
+	font-size: 18px;
+	width: 25%;
+	margin: 2%;
+}
+.para5 {
+	display: inline-block;
+	font-size: 18px;
+	width: 25%;
+	margin: 2%;
+}
+
+.contact {
+	width: 5%;
+}
+
+footer p{
+	text-align: center;
+}
