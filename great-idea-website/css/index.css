@@ -111,9 +111,9 @@ h1 {
 
 }
 
+/*Styling section */
 .features {
 	display: inline-block;
-	border: 2px solid black;
 	width: 20%;
 	margin-right: 230px;
 	
@@ -121,7 +121,6 @@ h1 {
 
 .about {
 	display: inline-block;
-	border: 2px solid black;
 	width: 20%;
 	margin: 2%;
 	
@@ -130,8 +129,8 @@ h1 {
 
 .para1 {
 	display: inline-block;
-	border: 2px solid black;
-	width: 55%;
+	width: 40%;
+	height: 2%;
 	margin: 2%;
 	
 	
@@ -139,9 +138,9 @@ h1 {
 
 .para2 {
 	display: inline-block;
-	border: 2px solid black;
-	width: 55%;
-	margin: 2%;
+	width: 45%;
+	height: 8%;
+	margin: 5%;
 }
 
 .img1 {
