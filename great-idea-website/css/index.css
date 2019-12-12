@@ -68,7 +68,12 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 /*Styling the nav */
+nav{
+	position: fixed;
+	width: 800px;
+}
 a {
+
 	display: inline-block;
 	text-decoration: none;
 	color: gray;
@@ -81,110 +86,92 @@ a {
 	width: 15%;
 }
 
-/*Styling the header*/
+/*Styling the heading*/
+#header {
+	width: 900px;
+	align-content: center;
+}
 
-h1 {
+.heading {
 	display: inline-block;
+	font-size: 75px;
 	text-align: center;
-	font-size: 60px;
-	width: 25%;
-	height: 60%;
+	width: 250px;
+	height: 200px;
+	margin: 10%;
+
+
+}
+
+.img-heading {
+	display: inline-block;
+    width: 350px;
+	height: 123px;
 	margin: 5%;
 
 }
-
-.header {
-	display: inline-block;
-	width: 40%;
-	margin: 10%;
-}
-
 
 .button{
 	display: inline-block;
 	background-color: white; 
-	border: 2px solid black ;
+	border: 2px solid black;
+	align-content: center;
 	color: black;
-	padding: 15px 32px;
+	width: 130px;
+	padding: 15px ;
+	margin: 2%;
 	text-decoration: none;
-	
-
 }
 
-/*Styling section */
-.features {
-	display: inline-block;
-	width: 20%;
-	margin-right: 230px;
-	
-}
-
-.about {
-	display: inline-block;
-	width: 20%;
-	margin: 2%;
-	
-	
-}
-
-.para1 {
-	display: inline-block;
-	width: 40%;
-	height: 2%;
-	margin: 2%;
-	
-	
-}
-
-.para2 {
-	display: inline-block;
-	width: 45%;
-	height: 8%;
-	margin: 5%;
-}
-
-.img1 {
+/*Styling the first section of content*/
+#wrap {
+	width: 800px;
 	align-content: center;
 }
 
-/* styling 2 section that contains 3 h2 and 3 p */
-
-.services {
-	display: inline-block;
-	width: 20%;
-	margin: 3%;
+.left{
+	width: 400px;
+	height: 123px;
+	float: left;
+	padding: 2px;
+	
 }
 
-.product {
-	display: inline-block;
-	width: 20%;
-	margin: 3%;
+.right{
+	width: 400px;
+	height: 123px;
+	float: right;
+	padding: 2px;
 }
 
-.vision {
-	display: inline-block;
-	width: 20%;
-	margin: 2%;
+/*Img in the center of page*/
+.img1 {
+	align-content: center;
+
 }
 
-.para3 {
-	display: inline-block;
-	font-size: 18px;
-	width: 25%;
-	margin: 2%;
+#section{
+	width: 900px;
 }
-.para4 {
+.services{
 	display: inline-block;
-	font-size: 18px;
-	width: 25%;
-	margin: 2%;
+	width: 290px;
+	height: 123px;
 }
-.para5 {
+
+.product{
 	display: inline-block;
-	font-size: 18px;
-	width: 25%;
-	margin: 2%;
+	width: 290px;
+	height: 123px;
 }
+
+.vision{
+	display: inline-block;
+	width: 290px;
+	height: 123px;
+}
+
+
 
 .contact {
 	width: 5%;
