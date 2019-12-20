@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	width: 50%;
+	margin: 0 auto;
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +66,117 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/*Styling the nav */
+nav{
+	position: fixed;
+	width: 800px;
+}
+a {
+
+	display: inline-block;
+	text-decoration: none;
+	color: gray;
+	width: 9%;
+	margin: 2%;
+}
+
+.logo {
+	display: inline-block;
+	width: 15%;
+}
+
+/*Styling the heading*/
+#header {
+	width: 900px;
+	align-content: center;
+}
+
+.heading {
+	display: inline-block;
+	font-size: 75px;
+	text-align: center;
+	width: 250px;
+	height: 200px;
+	margin: 10%;
+
+
+}
+
+.img-heading {
+	display: inline-block;
+    width: 350px;
+	height: 123px;
+	margin: 5%;
+
+}
+
+.button{
+	display: inline-block;
+	background-color: white; 
+	border: 2px solid black;
+	align-content: center;
+	color: black;
+	width: 130px;
+	padding: 15px ;
+	margin: 2%;
+	text-decoration: none;
+}
+
+/*Styling the first section of content*/
+#wrap {
+	width: 800px;
+	align-content: center;
+}
+
+.left{
+	width: 400px;
+	height: 123px;
+	float: left;
+	padding: 2px;
+	
+}
+
+.right{
+	width: 400px;
+	height: 123px;
+	float: right;
+	padding: 2px;
+}
+
+/*Img in the center of page*/
+.img1 {
+	align-content: center;
+
+}
+
+#section{
+	width: 900px;
+}
+.services{
+	display: inline-block;
+	width: 290px;
+	height: 123px;
+}
+
+.product{
+	display: inline-block;
+	width: 290px;
+	height: 123px;
+}
+
+.vision{
+	display: inline-block;
+	width: 290px;
+	height: 123px;
+}
+
+
+
+.contact {
+	width: 5%;
+}
+
+footer p{
+	text-align: center;
+}
